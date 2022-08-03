@@ -1,0 +1,69 @@
+@font-face {
+  font-family: ElMessiri;
+  src: url("../ArbFonts/ArbFONTS-ElMessiri-SemiBold-1.ttf");
+}
+@font-face {
+  font-family: ElMessiri-Medium;
+  src: url("../ArbFonts/ArbFONTS-ElMessiri-Medium-1.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: 'ElMessiri';
+}
+.Construction .logo{
+  width: 30%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.Construction .sec-para{
+  position: absolute;
+  top: 50%;
+  width: 30%;
+ 
+}
+.Construction p{
+  color: #006C9D;
+  font-weight: 500;
+  font-size: 24px;
+}
+.Construction button{
+  width:85%;
+  border-radius: 20px;
+  padding: 10px 0 9px;
+  background: #FDC923;
+  border: none;
+  outline: none;
+  font-family: ElMessiri-Medium;
+}
+@media (max-width: 991.98px) {
+  .Construction .sec-para{
+    width: 35%;
+    
+  }
+  .Construction p{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .Construction .logo {
+    position: absolute;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.Construction .sec-para {
+  width: 60%;
+  right: 20%;
+}
+.Construction p{
+color: white;}
+.Construction .bg-img{
+  height: 100vh;
+}
+}
